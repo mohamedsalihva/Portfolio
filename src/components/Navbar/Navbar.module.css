@@ -15,7 +15,7 @@
   z-index: 100;
 }
 
-/* Portfolio title */
+/* Title */
 .title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -28,6 +28,21 @@
 
 .title:hover {
   color: var(--color-accent);
+}
+
+/* Menu container */
+.menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Icon button */
+.menuBtn {
+  display: none;
+  font-size: 1.8rem;
+  color: var(--color-white);
+  cursor: pointer;
 }
 
 /* Menu list */
@@ -52,17 +67,25 @@
   transform: scale(1.05);
 }
 
-/* Mobile responsive */
+/* Mobile Responsive */
 @media (max-width: 768px) {
+  .menuBtn {
+    display: block;
+  }
+
   .menuList {
-    gap: 1rem;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(4, 22, 117, 0.95);
+    width: 180px;
+    padding: 1rem;
+    border-radius: 10px;
   }
 
-  .navbar {
-    padding: 15px 6%;
-  }
-
-  .title {
-    font-size: 1.3rem;
+  .menuOpen {
+    display: flex;
   }
 }
