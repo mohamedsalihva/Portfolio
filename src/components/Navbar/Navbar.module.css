@@ -1,0 +1,68 @@
+@import "../../vars.css";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background: rgb(4, 22, 117);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(12, 191, 241, 0.1);
+  z-index: 100;
+}
+
+/* Portfolio title */
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: var(--color-accent);
+}
+
+/* Menu list */
+.menuList {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuList li a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.menuList li a:hover {
+  color: var(--color-accent);
+  transform: scale(1.05);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .menuList {
+    gap: 1rem;
+  }
+
+  .navbar {
+    padding: 15px 6%;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+}
