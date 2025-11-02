@@ -1,5 +1,8 @@
 :root {
   --color-white: #ffffff;
-  --color-accent: #5ae9fb; /* or your theme color */
+  --color-accent: #5ae9fb;
   --color-bg: #0f2151;
+  --color-dark: #0a163a;
+  --color-text: #dcdcdc;
+  --color-text-secondary: #b0b0b0;
 }

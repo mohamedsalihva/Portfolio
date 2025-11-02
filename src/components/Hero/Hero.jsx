@@ -1,6 +1,5 @@
-import React from "react";
-import styles from "./Hero.module.css";
 import salihImg from "../../assets/profile/salih.jpg"; // direct import
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (

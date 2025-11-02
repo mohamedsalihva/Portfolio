@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "MERN E-Commerce Platform",
+    "description": "A full-featured e-commerce platform with product management, user authentication, payment integration, and admin dashboard.",
+    "image": "../assets/boat.png",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+    "github": "https://github.com/mohamedsalihva/MERN-E-COMMERCE.git",
+    "demo": "https://your-demo-link.vercel.app"
+  },
+  {
+    "id": 2,
+    "title": "Modern Portfolio Website",
+    "description": "Responsive portfolio website with smooth animations, dark mode, and modern UI components.",
+    "image": "../assets/boat.png",
+    "technologies": ["React", "CSS3", "Framer Motion", "Responsive Design"],
+    "github": "https://github.com/yourusername/portfolio",
+    "demo": "https://portfolio-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "title": "HouseBoat Booking System",
+    "description": "Dynamic booking platform for Kerala houseboats with real-time availability, payment processing, and admin panel.",
+    "image": "../assets/boat.png",
+    "technologies": ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    "github": "https://github.com/mohamedsalihva/HouseBoatBooking.git",
+    "demo": "https://kerelahouseboats.42web.io/?i=1"
+  }
+]
