@@ -5,7 +5,7 @@
     "description": "A full-featured e-commerce platform with product management, user authentication, payment integration, and admin dashboard.",
     "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
     "github": "https://github.com/mohamedsalihva/MERN-E-COMMERCE.git",
-    "demo": "https://your-demo-link.vercel.app",
+    "demo": "https://mern-e-commerce-o8va.vercel.app/",
     "image": "ecommerce"
   },
   {
@@ -14,7 +14,7 @@
     "description": "Responsive portfolio website with smooth animations, dark mode, and modern UI components.",
     "technologies": ["React", "CSS3", "Framer Motion", "Responsive Design"],
     "github": "https://github.com/yourusername/portfolio",
-    "demo": "https://portfolio-demo.vercel.app",
+    "demo": "https://salihportfolio.netlify.app/",
     "image": "portfolio"
   },
   {
