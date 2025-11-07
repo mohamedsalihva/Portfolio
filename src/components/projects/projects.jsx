@@ -1,6 +1,17 @@
 import { ExternalLink, Github } from "lucide-react";
-import boatImage from "../../assets/boat.png";
+// Import project images directly
+import ecommerceImage from "../../assets/projects/ecommerce.png";
+import houseboatImage from "../../assets/projects/Houseboat.png";
+import portfolioImage from "../../assets/projects/portfolio.png";
+
 import projectsData from "../../data/project.json";
+
+// Map project image names to actual imports
+const projectImages = {
+  "ecommerce": ecommerceImage,
+  "portfolio": portfolioImage,
+  "houseboat": houseboatImage,
+};
 
 const Projects = () => {
   return (
@@ -27,7 +38,7 @@ const Projects = () => {
             >
               <div className="h-48 overflow-hidden">
                 <img
-                  src={boatImage}
+                  src={projectImages[project.image] || boatImage}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />

@@ -5,7 +5,8 @@
     "description": "A full-featured e-commerce platform with product management, user authentication, payment integration, and admin dashboard.",
     "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
     "github": "https://github.com/mohamedsalihva/MERN-E-COMMERCE.git",
-    "demo": "https://your-demo-link.vercel.app"
+    "demo": "https://your-demo-link.vercel.app",
+    "image": "ecommerce"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "Responsive portfolio website with smooth animations, dark mode, and modern UI components.",
     "technologies": ["React", "CSS3", "Framer Motion", "Responsive Design"],
     "github": "https://github.com/yourusername/portfolio",
-    "demo": "https://portfolio-demo.vercel.app"
+    "demo": "https://portfolio-demo.vercel.app",
+    "image": "portfolio"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "description": "Dynamic booking platform for Kerala houseboats with real-time availability, payment processing, and admin panel.",
     "technologies": ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Bootstrap"],
     "github": "https://github.com/mohamedsalihva/HouseBoatBooking.git",
-    "demo": "https://kerelahouseboats.42web.io/?i=1"
+    "demo": "https://kerelahouseboats.42web.io/?i=1",
+    "image": "houseboat"
   }
 ]
