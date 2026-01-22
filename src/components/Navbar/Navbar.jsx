@@ -46,29 +46,29 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between py-4 px-6 transition-all duration-300 ${
-        scrolled ? 'bg-gray-900/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-center py-3 px-4 md:px-8 lg:px-16 transition-all duration-300 ${
+        scrolled ? 'bg-gray-900/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}>
-        <a className="text-2xl font-bold text-white no-underline" href="#home">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Portfolio</span>
-        </a>
-        
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8">
-          <li><a className="text-gray-300 no-underline hover:text-blue-400 transition-colors duration-300 font-medium" href="#about">About</a></li>
-          <li><a className="text-gray-300 no-underline hover:text-blue-400 transition-colors duration-300 font-medium" href="#projects">Projects</a></li>
-          <li><a className="text-gray-300 no-underline hover:text-blue-400 transition-colors duration-300 font-medium" href="#contact">Contact</a></li>
-        </ul>
-        
-        {/* Mobile Menu Button */}
-        <div className="md:hidden">
-          <div 
-            className="text-white text-2xl cursor-pointer"
-            onClick={handleMenuClick}
-            aria-label={menuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={menuOpen}
-          >
-            {menuOpen ? <FaTimes /> : <FaBars />}
+        <div className="flex items-center justify-between w-full max-w-7xl px-4">
+          <a className="text-xl md:text-2xl font-bold text-white no-underline" href="#home">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Salih</span>
+          </a>
+          
+          <ul className="hidden md:flex space-x-6 lg:space-x-8">
+            <li><a className="text-gray-300 no-underline hover:text-blue-400 transition-colors duration-300 font-medium" href="#about">About</a></li>
+            <li><a className="text-gray-300 no-underline hover:text-blue-400 transition-colors duration-300 font-medium" href="#projects">Projects</a></li>
+            <li><a className="text-gray-300 no-underline hover:text-blue-400 transition-colors duration-300 font-medium" href="#contact">Contact</a></li>
+          </ul>
+          
+          <div className="md:hidden">
+            <div 
+              className="text-white text-2xl cursor-pointer"
+              onClick={handleMenuClick}
+              aria-label={menuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={menuOpen}
+            >
+              {menuOpen ? <FaTimes /> : <FaBars />}
+            </div>
           </div>
         </div>
       </nav>

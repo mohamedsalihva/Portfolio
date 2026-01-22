@@ -9,10 +9,12 @@ function App() {
     <>
       <div className="min-h-screen bg-gray-900">
         <Navbar />
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
+        <div className="pt-16">
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </div>
       </div>
     </>
   )

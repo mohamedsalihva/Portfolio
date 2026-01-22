@@ -1,16 +1,16 @@
 const Contact = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-900 to-gray-800 text-white" id="contact">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <div className="inline-block mb-4">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-gray-900 to-gray-800 text-white" id="contact">
+      <div className="container mx-auto px-4 md:px-8 lg:px-16">
+        <div className="text-center mb-12 max-w-3xl mx-auto">
+          <div className="inline-block mb-6">
             <span className="px-4 py-2 bg-blue-500/10 text-blue-400 rounded-full text-sm font-medium border border-blue-500/20">
               GET IN TOUCH
             </span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Together</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Together</span></h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto rounded-full"></div>
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-400 mt-4 max-w-xl mx-auto">
             Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
           </p>
         </div>
