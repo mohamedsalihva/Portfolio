@@ -51,7 +51,7 @@ const Navbar = () => {
       }`}>
         <div className="flex items-center justify-between w-full max-w-7xl px-4">
           <a className="text-xl md:text-2xl font-bold text-white no-underline" href="#home">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Salih</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Portfolio</span>
           </a>
           
           <ul className="hidden md:flex space-x-6 lg:space-x-8">

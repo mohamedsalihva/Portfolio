@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "Habit Tracker Platform",
+    "description": "A productivity-focused habit tracking app with streak analytics, daily check-ins,AI Coach, and progress visualization.",
+    "technologies": ["React", "Node.js", "MongoDB", "JWT", "Chart.js"],
+    "github": "https://github.com/mohamedsalihva/ConsistencyTracker",
+    "demo": "https://consistency-tracker-sable.vercel.app",
+    "image": "habit"
+  },
+  {
+    "id": 2,
     "title": "MERN E-Commerce Platform",
     "description": "A full-featured e-commerce platform with product management, user authentication, payment integration, and admin dashboard.",
     "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
@@ -9,16 +18,7 @@
     "image": "ecommerce"
   },
   {
-    "id": 2,
-    "title": "Modern Portfolio Website",
-    "description": "Responsive portfolio website with smooth animations, dark mode, and modern UI components.",
-    "technologies": ["React", "CSS3", "Framer Motion", "Responsive Design"],
-    "github": "https://github.com/mohamedsalihva/Portfolio.git",
-    "demo": "https://salihportfolio.netlify.app/",
-    "image": "portfolio"
-  },
-  {
-    "id": 3,
+    "id": 4,
     "title": "HouseBoat Booking System",
     "description": "Dynamic booking platform for Kerala houseboats with real-time availability, payment processing, and admin panel.",
     "technologies": ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Bootstrap"],

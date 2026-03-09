@@ -6,17 +6,20 @@ import Projects from './components/projects/projects'
 
 function App() {
   return (
-    <>
-      <div className="min-h-screen bg-gray-900">
-        <Navbar />
-        <div className="pt-16">
-          <Hero />
-          <About />
-          <Projects />
-          <Contact />
-        </div>
+    <div className="min-h-screen app-shell">
+      <div className="ambient-layer" aria-hidden="true">
+        <span className="orb orb-one"></span>
+        <span className="orb orb-two"></span>
+        <span className="orb orb-three"></span>
       </div>
-    </>
+      <Navbar />
+      <div className="pt-16 relative z-10">
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </div>
+    </div>
   )
 }
 
